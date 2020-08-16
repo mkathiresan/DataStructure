@@ -1,3 +1,6 @@
+# Implementation for linked list
+
+# Node class
 class Node:
     def __init__(self, data=None, next=None):
         self.data = data
