@@ -13,7 +13,7 @@
 # It doesn't matter what you leave beyond the returned length.
 
 class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+    def removeElement(self, nums: list[int], val: int) -> int:
         l = len(nums)
         i = 0
         while l > i:
